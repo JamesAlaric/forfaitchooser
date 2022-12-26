@@ -44,11 +44,22 @@
       <h2>Bienvenu 🚀</h2>
       <h1> Les meilleurs forfait comparés pour vous! </h1>
       <p>Renseignez vos préférences...</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Soumettre </a>
+      <hr>
+      <input type="number" name="argent" id="X" placeholder="combien souhaitez-vous depenser">
+      <hr>
+      <input type="number" name="jour" id="n" placeholder="durée en jours">
+      <hr>
+      <input type="number" name="sms" id="s" placeholder="priorité de sms entre 0-3">
+      <hr>
+      <input type="number" name="appel" id="a" placeholder="priorité d'appel entre 0-3">
+      <hr>
+      <input type="number" name="data" id="d" placeholder="priorité d'internet entre 0-3">
+
+      <a target="_blank" onclick="UserChoice(X,n,s,a,d)"> Soumettre </a>
     </div>
     <p id="load">un travail de Romaric Ndzana et James Ngimbock</p>
 
-    <script>
+    <!-- <script>
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
@@ -85,6 +96,6 @@
           loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
         }
       });
-    </script>
+    </script> -->
   </body>
 </html>
