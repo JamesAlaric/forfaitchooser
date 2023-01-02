@@ -1,4 +1,4 @@
-    var Forfaits = [
+var Forfaits = [
         //MANGO
         [
             'Mango Plenty J',//Nom
@@ -374,7 +374,7 @@
     
     
     
-    ];
+];
     
     
     var X = document.getElementById("X").value;
