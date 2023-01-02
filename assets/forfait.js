@@ -377,6 +377,12 @@
     ];
     
     
+    var X = document.getElementById("X").value;
+    var n = document.getElementById("n").value;
+    var s = document.getElementById("s").value;
+    var a = document.getElementById("a").value;
+    var d = document.getElementById("d").value;
+
     
     var T = new Array(Number);
     var tabPoids = new Array(Number);
