@@ -439,7 +439,7 @@
             tabBestForfait[p] = Forfaits[tabPoidsMax[m]]; 
             p++;      
         }
-        return tabBestForfait;
+        return console.log(tabBestForfait);
     }
     
     function UserChoice(X,n,s,a,d) {

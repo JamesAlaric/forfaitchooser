@@ -45,15 +45,15 @@
       <h1> Les meilleurs forfaits comparés pour vous! </h1>
       <p>Renseignez vos préférences...</p>
       <hr>
-      <input type="number" name="argent" id="X" placeholder="combien souhaitez-vous depenser">
+      <input type="number" min="50"  name="argent" id="X" placeholder="combien souhaitez-vous depenser">
       <hr>
-      <input type="number" name="jour" id="n" placeholder="durée en jours">
+      <input type="number" min="1" name="jour" id="n" placeholder="durée en jours">
       <hr>
-      <input type="number" name="sms" id="s" placeholder="priorité de sms entre 0-3">
+      <input type="number" min="0" max="3" name="sms" id="s" placeholder="priorité de sms sur 3">
       <hr>
-      <input type="number" name="appel" id="a" placeholder="priorité d'appel entre 0-3">
+      <input type="number" min="0" max="3" name="appel" id="a" placeholder="priorité d'appel sur 3">
       <hr>
-      <input type="number" name="data" id="d" placeholder="priorité d'internet entre 0-3">
+      <input type="number" min="0" max="3" name="data" id="d" placeholder="priorité d'internet sur 3">
 
       <a target="_blank" onclick="UserChoice(X,n,s,a,d)"> Soumettre </a>
     </div>
