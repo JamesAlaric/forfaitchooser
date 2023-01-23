@@ -447,7 +447,7 @@ var Forfaits = [
     }
     
         //ici c'était juste une fonction pour calculer le poids moyen des forfaits par opérateur
-        //Mango(22) pour le poids moyen de Mango et Mango(45)-Mango(22) pour celui de Hemle 
+        //Mango(22) pour le poids moyen de Mango et Mango(45)-Mango(22) pour celui de Hemle 1 
     function Mango(f) {let tabMango=0;
         for (let i = 0; i < f; i++) {
             for (let j = 0; j < 4; j++) {
