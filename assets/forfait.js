@@ -361,28 +361,19 @@ var Forfaits = [
             1,
             30,
              10000
-        ],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        ],   
 ];
     
-    
-    var X = document.getElementById("X").value;
-    var n = document.getElementById("n").value;
-    var s = document.getElementById("s").value;
-    var a = document.getElementById("a").value;
-    var d = document.getElementById("d").value;
+function submit(){
+    var X = Number(document.getElementById("X").value);
+    var n = Number(document.getElementById("n").value);
+    var s = Number(document.getElementById("s").value);
+    var a = Number(document.getElementById("a").value);
+    var d = Number(document.getElementById("d").value);
 
+    result = UserChoice(X,n,s,a,d)
+    document.getElementById('forfait').innerHTML = result;
+}
     
     var T = new Array(Number);
     var tabPoids = new Array(Number);
@@ -439,11 +430,12 @@ var Forfaits = [
             tabBestForfait[p] = Forfaits[tabPoidsMax[m]]; 
             p++;      
         }
-        return console.log(tabBestForfait);
+        return tabBestForfait;
     }
     
     function UserChoice(X,n,s,a,d) {
-        return BestForfait(PoidsMax(Poids(Elig(X,n),s,a,d)))
+        resultat= BestForfait(PoidsMax(Poids(Elig(X,n),s,a,d)));
+        return resultat
     }
     
         //ici c'était juste une fonction pour calculer le poids moyen des forfaits par opérateur
