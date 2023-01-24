@@ -43,7 +43,6 @@ var Forfaits = [
         [
             'Mango Giga 3J 2650',
             0,
-            0,
             7,
             7,
             2650
