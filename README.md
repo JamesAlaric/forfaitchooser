@@ -1,3 +1,3 @@
 # forfaitchooser
 
-Go on https://forfaitchooser.web.app/ to view the demo
+Go on https://forfaitchooser.vercel.app/ to view the demo
