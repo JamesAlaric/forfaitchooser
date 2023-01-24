@@ -372,7 +372,7 @@ function submit(){
     var d = Number(document.getElementById("d").value);
 
     result = UserChoice(X,n,s,a,d)
-    document.getElementById("forfait").innerHTML=result
+    document.getElementById('forfait').innerHTML = result;
 }
     
     var T = new Array(Number);
@@ -435,7 +435,7 @@ function submit(){
     
     function UserChoice(X,n,s,a,d) {
         resultat= BestForfait(PoidsMax(Poids(Elig(X,n),s,a,d)));
-        return resultat;
+        return resultat
     }
     
         //ici c'était juste une fonction pour calculer le poids moyen des forfaits par opérateur
